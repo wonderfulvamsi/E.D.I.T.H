@@ -10,6 +10,7 @@ http://www.dbehavior.net/
 ![alt text](https://github.com/wonderfulvamsi/E.D.I.T.H/blob/master/db.JPG)
 
 # About the model
+After converting the images into gray scale.
 The model was trained on 6000 samples of 50 sceans with 2 minutes duration each and tested on 1800 samples.
 
 It achived 45% accuracy in predicting the original speed of the vechicle with only 0.9 loss(MSE).
@@ -17,3 +18,6 @@ It achived 45% accuracy in predicting the original speed of the vechicle with on
 
 The model had achived 66% accuracy in predicting the maximum speed limit.
 
+# Model architecture
+The model consists of a convolution(4), max pooling(4) & batch norm(2) layers.
+Since a video is a sequential data, I've used a LSTM layer with 1200 nodes after the flatten layer.
