@@ -10,8 +10,10 @@ http://www.dbehavior.net/
 ![alt text](https://github.com/wonderfulvamsi/E.D.I.T.H/blob/master/db.JPG)
 
 # About the model
-After converting the images into gray scale.
-The model was trained on 6000 samples of 50 sceans with 2 minutes duration each and tested on 1800 samples.
+After converting all the 120 images of each video of the dataset into gray scale.
+![alt text](https://github.com/wonderfulvamsi/E.D.I.T.H/blob/master/grayscale.JPG)
+
+The model was trained on 6000 samples of 50 sceans with 4 seconds duration each and tested on 1800 samples.
 
 It achived 45% accuracy in predicting the original speed of the vechicle with only 0.9 loss(MSE).
 ![alt text](https://github.com/wonderfulvamsi/E.D.I.T.H/blob/master/graph.JPG)
